@@ -24,7 +24,8 @@ body{
 
 body {    
     line-height: 1.42;
-    -webkit-font-smoothing: antialiased;    
+    -webkit-font-smoothing: antialiased;
+        
 }
 
 .clearfix{
@@ -180,7 +181,7 @@ input[type=submit]:active {
 }
 
 .btn-full:hover,
-.btn-full:active,
+.btn-full:active
 {
     border: 1px solid #12d8cf;
 }
@@ -199,6 +200,7 @@ header{
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 }
 
 

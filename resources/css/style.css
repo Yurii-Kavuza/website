@@ -180,6 +180,22 @@ input[type=submit]:active {
     border: 1px solid #12d8cf;
 }
 
+.btn:hover,
+input[type=submit]:hover{
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active,
+input[type=submit]:active{
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 .btn-full:hover,
 .btn-full:active
 {
@@ -198,9 +214,8 @@ input[type=submit]:active {
 header{
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 98vh;
     background-attachment: fixed;
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 }
 
 
